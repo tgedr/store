@@ -1,6 +1,6 @@
 {
   "name": "@tgedr/store",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "you use it to store data",
   "main": "index.js",
   "directories": {
