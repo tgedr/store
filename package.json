@@ -1,0 +1,44 @@
+{
+  "name": "@tgedr/store",
+  "version": "1.0.0",
+  "description": "you use it to store data",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@jtviegas/dyndbstore": "^2.1.1",
+    "@jtviegas/jscommons": "0.0.25",
+    "handlebars": "^4.5.3",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.585.0",
+    "chai": "^4.2.0",
+    "coveralls": "^3.0.9",
+    "istanbul": "^0.4.5",
+    "mocha": "^6.2.2"
+  },
+  "scripts": {
+    "test": "./helper.sh test",
+    "publicate": "./helper.sh publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tgedr/store.git"
+  },
+  "keywords": [
+    "javascript",
+    "store",
+    "node"
+  ],
+  "author": "Joao Tiago Viegas <jtviegas.js@gmail.com>",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/tgedr/store/issues"
+  },
+  "homepage": "https://github.com/tgedr/store#readme",
+  "engines": {
+    "node": ">=4.2.4"
+  }
+}
